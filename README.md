@@ -1,8 +1,8 @@
 <div align="center">
 
-# 🏠 Smart Home Dashboard
+# Smart Home Dashboard
 
-**Dashboard residencial com monitor de dispositivos IoT, sensores e gráficos de consumo.**
+**Painel pra monitorar sua casa inteligente em tempo real: dispositivos IoT, sensores e gráficos de consumo.**
 
 [![React](https://img.shields.io/badge/React-18.x-61DAFB?style=for-the-badge&logo=react&logoColor=white)](https://react.dev)
 [![Node.js](https://img.shields.io/badge/Node.js-20.x-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org)
@@ -16,24 +16,24 @@
 
 ---
 
-## 📖 Sobre o Projeto
+## Sobre o projeto
 
-O **Smart Home Dashboard** é uma aplicação web moderna para monitorar sua casa inteligente em tempo real. Ele consome dados de sensores e dispositivos IoT (temperatura, umidade, energia, presença) via **MQTT** e entrega atualizações instantâneas para o frontend através de **WebSockets (Socket.io)**, com visualização de dados em gráficos interativos **Chart.js**.
+O **Smart Home Dashboard** é uma aplicação web que eu criei pra monitorar minha casa inteligente em tempo real. Ela consome dados de sensores e dispositivos IoT (temperatura, umidade, energia e presença) via **MQTT** e entrega atualizações instantâneas pro frontend através de **WebSockets (Socket.io)**, com visualização dos dados em gráficos interativos feitos com **Chart.js**.
 
-> 🚧 **Status:** Projeto em fase inicial (scaffold). A arquitetura está preparada para receber o backend Node.js e a integração com brokers MQTT.
+> **Status:** o projeto ainda tá em fase inicial (scaffold). A arquitetura já tá preparada pra receber o backend Node.js e a integração com brokers MQTT.
 
-## ✨ Funcionalidades
+## Funcionalidades
 
 | Funcionalidade | Descrição |
 |---|---|
-| 📊 **Monitoramento em tempo real** | Atualização instantânea de sensores via WebSocket |
-| 🌡️ **Sensores de ambiente** | Temperatura, umidade e qualidade do ar |
-| ⚡ **Consumo de energia** | Gráficos de consumo diário, semanal e mensal |
-| 💡 **Dispositivos IoT** | Controle e status de luzes, tomadas e eletrodomésticos |
-| 📈 **Gráficos interativos** | Visualização de dados históricos com Chart.js |
-| 🚨 **Alertas** | Notificações de anomalias e limites ultrapassados *(roadmap)* |
+| **Monitoramento em tempo real** | Atualização instantânea dos sensores via WebSocket |
+| **Sensores de ambiente** | Temperatura, umidade e qualidade do ar |
+| **Consumo de energia** | Gráficos de consumo diário, semanal e mensal |
+| **Dispositivos IoT** | Controle e status de luzes, tomadas e eletrodomésticos |
+| **Gráficos interativos** | Visualização de dados históricos com Chart.js |
+| **Alertas** | Notificações de anomalias e limites ultrapassados *(roadmap)* |
 
-## 🛠️ Stack de Tecnologias
+## Stack de tecnologias
 
 | Camada | Tecnologia |
 |---|---|
@@ -43,12 +43,12 @@ O **Smart Home Dashboard** é uma aplicação web moderna para monitorar sua cas
 | **Mensageria (IoT)** | [MQTT](https://mqtt.org) — integração planejada no backend |
 | **Backend** *(roadmap)* | Node.js + Express + Socket.io Server |
 
-## 🚀 Como Executar
+## Como rodar
 
 ### Pré-requisitos
 
 - [Node.js](https://nodejs.org) **20.x** ou superior
-- npm (incluso com o Node.js)
+- npm (já vem junto com o Node.js)
 
 ### Passo a passo
 
@@ -64,16 +64,16 @@ npm install
 npm run dev
 ```
 
-Acesse **http://localhost:5173** no seu navegador.
+É só abrir **http://localhost:5173** no navegador.
 
 ### Build de produção
 
 ```bash
 npm run build     # gera os arquivos otimizados em /dist
-npm run preview   # serve o build localmente para testes
+npm run preview   # serve o build localmente pra testar
 ```
 
-## 📁 Estrutura do Projeto
+## Estrutura do projeto
 
 ```
 smart-home-dashboard/
@@ -90,7 +90,7 @@ smart-home-dashboard/
 └── README.md
 ```
 
-## 🗺️ Roadmap
+## Roadmap
 
 - [x] Scaffold do projeto com Vite + React
 - [x] Layout base do dashboard
@@ -104,22 +104,22 @@ smart-home-dashboard/
 - [ ] Dark mode e temas customizáveis
 - [ ] Deploy automatizado (Docker + GitHub Actions)
 
-## 🤝 Contribuindo
+## Contribuindo
 
-Contribuições são bem-vindas! Sinta-se à vontade para abrir uma *issue* ou enviar um *pull request*.
+Quer ajudar? Fica à vontade pra abrir uma *issue* ou mandar um *pull request*.
 
 1. Faça um *fork* do projeto
-2. Crie uma *branch* para sua feature (`git checkout -b feature/nova-funcionalidade`)
+2. Crie uma *branch* pra sua feature (`git checkout -b feature/nova-funcionalidade`)
 3. Faça o *commit* das alterações (`git commit -m 'feat: adiciona nova funcionalidade'`)
-4. Envie para o repositório (`git push origin feature/nova-funcionalidade`)
+4. Envie pro repositório (`git push origin feature/nova-funcionalidade`)
 5. Abra um *Pull Request*
 
-## 📄 Licença
+## Licença
 
-Distribuído sob a licença **MIT**. Veja o arquivo `LICENSE` para mais informações.
+Distribuído sob a licença **MIT**. Dá uma olhada no arquivo `LICENSE` pra mais informações.
 
 ---
 
 <div align="center">
-  Feito com ❤️ para o futuro da automação residencial
+  Feito por mim, pensando no futuro da automação residencial
 </div>
